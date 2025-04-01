@@ -1,3 +1,6 @@
+//I have chosen to build an application that I have called BookBuddy. The main purpose of this app is to help users enter their credentials to go to their account, add books on their TBR and select books so that they are able to journal their feelings and come back to them later!
+
+
 const readline = require('readline-sync');
 
 //Created a log to welcome users to the app. I modeled this concept from learning about new lines (\n) from the unit "Stringing Characters together"
@@ -12,7 +15,7 @@ let userInputPassword = readline.question("Please input a password: ");
 let userName = userInputName;
 let userPassword = userInputPassword;
 
-console.log("Thanks for creating an account! Please enter your information so that you can get started personalizing your account!");
+console.log("Thanks for creating an account! Please log in so that you can get started personalizing your account!");
 
 //I added both these loops after learning about this concept in "Working With Loops". These loops are used to validate the username and password that were established above.
 do { //The do while loop 
